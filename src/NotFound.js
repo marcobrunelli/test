@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from './../layouts/Header.js';
+import Header from 'Header.js';
 
 const NotFound = () => (
 <div id="main-container">
