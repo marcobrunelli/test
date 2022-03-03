@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+/*
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DatabaseList from './pages/DatabaseList.js';
 import TableList from './pages/TableList.js';
@@ -25,7 +25,7 @@ import InsertRowOracle from './pages/oracle/InsertRowOracle.js';
 import TableDataOracle from './pages/oracle/TableDataOracle.js';
 import SettingsDatabase from './pages/SettingsDatabase.js';
 import SettingsDatabaseInsert from './pages/SettingsDatabaseInsert.js';
-
+*/
 
 import NotFound from './pages/NotFound.js';
 import { BrowserRouter as Router, HashRouter, Route, Switch} from 'react-router-dom';
@@ -37,6 +37,7 @@ function App() {
           <HashRouter>
             <Switch>
                <Route exact path='/' component={DatabaseList} />
+               /*
                <Route exact path='/database/:database' component={DatabaseList} />
 
 
@@ -68,7 +69,7 @@ function App() {
 
                <Route exact path='/settings-database' component={SettingsDatabase} />
                <Route exact path='/settings-database-insert' component={SettingsDatabaseInsert} />
-
+               */
 
                <Route component={NotFound} />
             </Switch>
